@@ -11,7 +11,7 @@ public class Driver {
 
     public static WebDriver getDriver(){
         if(driver == null){
-            System.setProperty("webdriver.chrome.driver", "Users/SavageJenn/IdeaProjects/selenium_initial_project_5/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "C:/Users/SavageJenn/IdeaProjects/selenium_initial_project_5/chromedriver.exe");
 
             driver = new ChromeDriver();
 
